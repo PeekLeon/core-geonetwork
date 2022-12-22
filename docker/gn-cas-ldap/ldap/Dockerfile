@@ -1,4 +1,4 @@
-FROM debian
+FROM debian:bullseye
 ENV DEBIAN_FRONTEND noninteractive
 
 RUN echo "slapd slapd/internal/adminpw password secret" | debconf-set-selections &&           \
