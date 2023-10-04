@@ -813,7 +813,7 @@
       <dependency>
         <groupId>org.mapfish.print</groupId>
         <artifactId>print-lib</artifactId>
-        <version>2.2.0</version>
+        <version>3.0</version>
       </dependency>
 
       <!-- Lib utils -->
@@ -1438,7 +1438,7 @@
      when watchlist notifier is triggered (Default 4AM) -->
     <savedselection.watchlist.frequency>0 0 4 * * ?</savedselection.watchlist.frequency>
 
-    <microservices.url></microservices.url>
+    <microservices.url/>
     <!--<microservices.url>http://localhost:9901</microservices.url>-->
 
     <!-- Proxy security configuration:
@@ -1479,8 +1479,8 @@
 
     <es.index.mapping.total_fields.limit>4000</es.index.mapping.total_fields.limit>
 
-    <es.username></es.username>
-    <es.password></es.password>
+    <es.username/>
+    <es.password/>
 
     <kb.platform>linux-x86_64</kb.platform>
     <kb.installer.extension>tar.gz</kb.installer.extension>
@@ -1515,18 +1515,18 @@
     <pg.version>42.3.3</pg.version>
 
     <spring.version>5.2.20.RELEASE</spring.version>
-    <spring.security.version>5.2.15.RELEASE</spring.security.version>
+    <spring.security.version>6.1.0</spring.security.version>
     <spring.jpa.version>2.2.13.RELEASE</spring.jpa.version>
     <springboot.version>2.2.2.RELEASE</springboot.version>
     <springdoc.version>1.5.9</springdoc.version>
 
-    <metrics.version>2.1.1</metrics.version>
+    <metrics.version>2.1.5</metrics.version>
     <maven.build.timestamp.format>yyyy-MM-dd'T'HH'\:'mm'\:'ssZ</maven.build.timestamp.format>
     <build.timestamp>${maven.build.timestamp}</build.timestamp>
     <rootProjectDir>..</rootProjectDir>
     <wro.version>1.7.9</wro.version>
     <wro.debug>true</wro.debug>
-    <fop.version>2.7</fop.version>
+    <fop.version>2.8</fop.version>
     <node.version>v8.11.1</node.version>
     <npm.version>5.8.0</npm.version>
     <xmlunit.version>2.1.1</xmlunit.version>
@@ -1535,7 +1535,7 @@
     <camel.version>2.25.4</camel.version>
     <log4j.version>1.2.17</log4j.version>
     <log4j2.version>2.17.2</log4j2.version>
-    <slf4j.version>1.8.0-beta2</slf4j.version>
+    <slf4j.version>2.0.0</slf4j.version>
     <xbean.version>3.18</xbean.version>
     <jolokia.version>1.6.0</jolokia.version>
     <httpcomponents.version>4.5.9</httpcomponents.version>
