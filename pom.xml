@@ -1438,7 +1438,7 @@
      when watchlist notifier is triggered (Default 4AM) -->
     <savedselection.watchlist.frequency>0 0 4 * * ?</savedselection.watchlist.frequency>
 
-    <microservices.url></microservices.url>
+    <microservices.url/>
     <!--<microservices.url>http://localhost:9901</microservices.url>-->
 
     <!-- Proxy security configuration:
@@ -1479,8 +1479,8 @@
 
     <es.index.mapping.total_fields.limit>4000</es.index.mapping.total_fields.limit>
 
-    <es.username></es.username>
-    <es.password></es.password>
+    <es.username/>
+    <es.password/>
 
     <kb.platform>linux-x86_64</kb.platform>
     <kb.installer.extension>tar.gz</kb.installer.extension>
@@ -1524,7 +1524,7 @@
     <maven.build.timestamp.format>yyyy-MM-dd'T'HH'\:'mm'\:'ssZ</maven.build.timestamp.format>
     <build.timestamp>${maven.build.timestamp}</build.timestamp>
     <rootProjectDir>..</rootProjectDir>
-    <wro.version>1.7.9</wro.version>
+    <wro.version>1.9.0</wro.version>
     <wro.debug>true</wro.debug>
     <fop.version>2.7</fop.version>
     <node.version>v8.11.1</node.version>
