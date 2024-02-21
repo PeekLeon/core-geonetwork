@@ -1438,7 +1438,7 @@
      when watchlist notifier is triggered (Default 4AM) -->
     <savedselection.watchlist.frequency>0 0 4 * * ?</savedselection.watchlist.frequency>
 
-    <microservices.url></microservices.url>
+    <microservices.url/>
     <!--<microservices.url>http://localhost:9901</microservices.url>-->
 
     <!-- Proxy security configuration:
@@ -1479,8 +1479,8 @@
 
     <es.index.mapping.total_fields.limit>4000</es.index.mapping.total_fields.limit>
 
-    <es.username></es.username>
-    <es.password></es.password>
+    <es.username/>
+    <es.password/>
 
     <kb.platform>linux-x86_64</kb.platform>
     <kb.installer.extension>tar.gz</kb.installer.extension>
@@ -1512,7 +1512,7 @@
     of Postgres is used and update pg.version if needed. -->
     <geotools.version>27.0</geotools.version>
     <jts.version>1.18.2</jts.version>
-    <pg.version>42.3.3</pg.version>
+    <pg.version>42.7.2</pg.version>
 
     <spring.version>5.2.20.RELEASE</spring.version>
     <spring.security.version>5.2.15.RELEASE</spring.security.version>
