@@ -1,4 +1,4 @@
-FROM debian
+FROM debian:12.6
 ENV DEBIAN_FRONTEND noninteractive
 
 RUN echo "slapd slapd/internal/adminpw password secret" | debconf-set-selections &&           \
